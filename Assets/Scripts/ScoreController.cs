@@ -1,20 +1,25 @@
 ﻿using System;
+using Events;
 using TMPro;
 using UnityEngine;
 
 public class ScoreController : MonoBehaviour
 {
     [SerializeField]
-    private DiceRoll dice;
-    
-    [SerializeField]
     private TextMeshProUGUI text;
 
-    private void Update()
+    private void OnEnable()
     {
-        if (dice.diceFaceNum != 0)
-        {
-            text.text = dice.diceFaceNum.ToString();
-        }
+        EventBus.Subscribe<ScoreChangedEvent>(ScoreChanged);
+    }
+
+    private void OnDisable()
+    {
+        EventBus.Unsubscribe<ScoreChangedEvent>(ScoreChanged);
+    }
+
+    private void ScoreChanged(ScoreChangedEvent evt)
+    {
+        text.text = evt.Score.ToString();
     }
 }

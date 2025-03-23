@@ -1,0 +1,8 @@
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/asvechkar/Project/games/Dice-Rolling/.utmp/RelWithDebInfo/6v383w4y/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
